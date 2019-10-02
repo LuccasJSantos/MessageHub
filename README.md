@@ -7,7 +7,9 @@ This is a library which simplifies the implementation of SAP Fiori's MessagePopo
   ```
  
  ***Implementation***
- ```this.mHub = new MessageHub(this.getView());```
+ ```
+   this.mHub = new MessageHub(this.getView());
+ ```
 
 ### Methods
 #### addMessages(settings)
