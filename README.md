@@ -49,9 +49,8 @@ A message with an "additionalInfo" property can be clicked, the output will be a
     });
   }
 ```
-<br>
+
 ***Note***:
-<br>
   ***myapp***: application root;<br>
   ***myapp.library***: library folder, just like the controller, view, etc folders;<br>
   ***myapp.library.MessageHub***: MessageHub folder;<br>
