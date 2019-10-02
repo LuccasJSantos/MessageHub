@@ -39,8 +39,9 @@ A message with an "additionalInfo" property can be clicked, the output will be a
 **Available Settings**
 - ***openBy***: The object control which opens the popover.
 - ***fragmentPath***: The absolute fragment namespace.
-```
+
 **Implementation**
+```
   onOpenMessageHubPress: function (oEvent) {
     this.mHub.openPopover({
       openBy: oEvent.getSource(),
