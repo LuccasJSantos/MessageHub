@@ -9,14 +9,14 @@ This is a library which simplifies the implementation of SAP Fiori's MessagePopo
   Adds new messages to the hub.
   
 **Available Settings**
-- title
-    - ***default***: "Message"
-- message
-    - ***default***: ""
-- additionalInfo
-    - ***default***: ""
-- type
-    - ***default***: "Information" or "" if type by any means is not available in the namespace *sap.ui.core.MessageType*.
+- ***title***
+    - default: "Message"
+- ***message***
+    - default: ""
+- ***additionalInfo***
+    - default: ""
+- ***type***
+    - default: "Information" or "" if type by any means is not available in the namespace *sap.ui.core.MessageType*.
 
 **Implementation**
 ```
