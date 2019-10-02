@@ -2,7 +2,10 @@
 This is a library which simplifies the implementation of SAP Fiori's MessagePopover control.
 
 ### Constructor
-  ```this.mHub = new MessageHub(view);```
+  ```new MessageHub(view);```
+ 
+ ***Implementation***
+ ```this.mHub = new MessageHub(this.getView());```
 
 ### Methods
 #### addMessages(settings)
