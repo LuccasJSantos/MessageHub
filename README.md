@@ -18,7 +18,7 @@ This is a library which simplifies the implementation of SAP Fiori's MessagePopo
 - ***type***
     - default: "Information" or "" if type by any means is not available in the namespace *sap.ui.core.MessageType*.
 
-**Implementation**
+***Implementation***
 ```
   this.mHub.addMessages({
     title: "Error Deleting Files",
@@ -36,11 +36,11 @@ A message with an "additionalInfo" property can be clicked, the output will be a
 #### openPopover(settings)
   Open the message popover by the provided control.
   
-**Available Settings**
+***Available Settings***
 - ***openBy***: The object control which opens the popover.
 - ***fragmentPath***: The absolute fragment namespace.
 
-**Implementation**
+***Implementation***
 ```
   onOpenMessageHubPress: function (oEvent) {
     this.mHub.openPopover({
@@ -50,7 +50,8 @@ A message with an "additionalInfo" property can be clicked, the output will be a
   }
 ```
 <br>
-**Note:**<br>
+***Note:***
+<br>
   *myapp*: application root;<br>
   *myapp.library*: library folder, just like the controller, view, etc folders;<br>
   *myapp.library.MessageHub*: MessageHub folder;<br>
