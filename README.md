@@ -4,8 +4,8 @@ This is a library which simplifies the implementation of SAP Fiori's MessagePopo
 ### Constructor
   this.mHub = new MessageHub(view);
 
-#### Methods
-###### addMessages(settings)
+### Methods
+#### addMessages(settings)
   Adds new messages to the hub.
   
 **Available Settings**
@@ -32,7 +32,7 @@ The following code will output:
 A message with an "additionalInfo" property can be clicked, the output will be as follows:
 *Image Here*
 
-###### openPopover(settings)
+#### openPopover(settings)
   Open the message popover by the provided control.
   
 **Available Settings**
@@ -47,7 +47,7 @@ A message with an "additionalInfo" property can be clicked, the output will be a
     });
   }
   
-  *myapp*: application root;
-  *myapp.library*: library folder, just like the controller, view, etc folders;
-  *myapp.library.MessageHub*: MessageHub folder;
+  *myapp*: application root;<br>
+  *myapp.library*: library folder, just like the controller, view, etc folders;<br>
+  *myapp.library.MessageHub*: MessageHub folder;<br>
   *myapp.library.MessageHub.MessageHub*: xml fragment;
