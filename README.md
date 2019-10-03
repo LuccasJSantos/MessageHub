@@ -1,7 +1,7 @@
 # MessageHub
 This is a library which simplifies the implementation of SAP Fiori's MessagePopover control.
 
-***Node***: <br>
+***Note***: <br>
 Before you start using it, make sure you add a reference to it in the manifest file, under the resources node.
 
 ### Constructor
