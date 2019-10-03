@@ -19,13 +19,13 @@ Before you start using it, make sure you add a reference to it in the manifest f
   Adds new messages to the hub.
   
 **Available Settings**
-- ***title***
+- ***title?***
     - default: "Message"
-- ***message***
+- ***message?***
     - default: ""
-- ***additionalInfo***
+- ***additionalInfo?***: if content isn't *null*, the message will be clickable, and will navigate to a new screen which will show the additional information.
     - default: ""
-- ***type***
+- ***type?***
     - default: "Information" or "" if type by any means is not available in the namespace *sap.ui.core.MessageType*.
 
 ***Implementation***
